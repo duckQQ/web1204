@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="true" version="3.1">
+  <servlet>
+    <servlet-name>Get_1204</servlet-name>
+    <servlet-class>tw.org.iii.Get_1204</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Get_1204</servlet-name>
+    <url-pattern>/Get_1204</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Get_1204_2</servlet-name>
+    <servlet-class>tw.org.iii.Get_1204_2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Get_1204_2</servlet-name>
+    <url-pattern>/Get_1204_2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>calculate</servlet-name>
+    <servlet-class>tw.org.iii.calculate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>calculate</servlet-name>
+    <url-pattern>/calculate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Brad15</servlet-name>
+    <servlet-class>tw.org.iii.Brad15</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Brad15</servlet-name>
+    <url-pattern>/Brad15</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <description>My Tepmplate</description>
+    <param-name>template-path</param-name>
+    <param-value>C:\javaee\workspace\Web1204\WebContent\template</param-value>
+  </context-param>
+</web-app>
