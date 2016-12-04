@@ -32,6 +32,23 @@
     <servlet-name>Brad15</servlet-name>
     <url-pattern>/Brad15</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>Brad16</servlet-name>
+    <servlet-class>tw.org.iii.Brad16</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Brad16</servlet-name>
+    <url-pattern>/Brad16</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>Duck17</servlet-name>
+    <servlet-class>tw.org.iii.Duck17</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Duck17</servlet-name>
+    <url-pattern>/Duck17</url-pattern>
+  </servlet-mapping>
+  
   <context-param>
     <description>My Tepmplate</description>
     <param-name>template-path</param-name>
